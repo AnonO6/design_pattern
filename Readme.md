@@ -5,6 +5,7 @@ This project demonstrates 6 software design patterns in action, highlighting the
 ## Abstract Factory pattern
 
 The LNMIIT Gate Prep App is a Java application designed to assist students in preparing for the Graduate Aptitude Test in Engineering (GATE) examination. The application allows students to generate practice papers for different difficulty levels (easy or hard) across three major subjects: Computer Networks, Blockchain, and Mathematics.
+At the backend these sections are served with questions using an abstract factory by different professors depending on the chosen difficulty level.
 
 ## Proxy design pattern
 
