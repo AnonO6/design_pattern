@@ -1,3 +1,4 @@
+package builder;
 import java.util.HashMap;
 
 public class NetworkRequestBuilder implements Builder{

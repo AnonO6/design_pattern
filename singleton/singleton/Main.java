@@ -1,4 +1,4 @@
-
+package singleton;
 import java.util.Map;
 
 public class Main {
