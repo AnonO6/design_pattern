@@ -1,15 +1,25 @@
 package main
 
-import (
-	proxy_consumer "github.com/AnonO6/design_pattern/proxy/consumer"
-	proxy_database "github.com/AnonO6/design_pattern/proxy/database"
-)
+import "fmt"
 
 func main() {
-	consumer := proxy_consumer.Consumer{}
-	
-	db := proxy_database.NewDatabase("../design_pattern/proxy/db.json")
-	cache := proxy_database.NewCache(*db)
 
-	consumer.Process(cache)
+    nginxServer := newNginxServer()
+    appStatusURL := "/app/status"
+    createuserURL := "/create/user"
+
+    httpCode, body := nginxServer.handleRequest(appStatusURL, "GET")
+    fmt.Printf("\nUrl: %s\nHttpCode: %d\nBody: %s\n", appStatusURL, httpCode, body)
+
+    httpCode, body = nginxServer.handleRequest(appStatusURL, "GET")
+    fmt.Printf("\nUrl: %s\nHttpCode: %d\nBody: %s\n", appStatusURL, httpCode, body)
+
+    httpCode, body = nginxServer.handleRequest(appStatusURL, "GET")
+    fmt.Printf("\nUrl: %s\nHttpCode: %d\nBody: %s\n", appStatusURL, httpCode, body)
+
+    httpCode, body = nginxServer.handleRequest(createuserURL, "POST")
+    fmt.Printf("\nUrl: %s\nHttpCode: %d\nBody: %s\n", appStatusURL, httpCode, body)
+
+    httpCode, body = nginxServer.handleRequest(createuserURL, "GET")
+    fmt.Printf("\nUrl: %s\nHttpCode: %d\nBody: %s\n", appStatusURL, httpCode, body)
 }
