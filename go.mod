@@ -1,4 +1,4 @@
-module github.com/panpito/youtube/design_pattern
+module github.com/AnonO6/design_pattern
 
 go 1.20
 

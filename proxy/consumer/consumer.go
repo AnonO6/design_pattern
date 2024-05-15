@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	proxy_database "github.com/panpito/youtube/design_pattern/proxy/database"
+	proxy_database "github.com/AnonO6/design_pattern/proxy/database"
 )
 
 type Consumer struct {

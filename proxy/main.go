@@ -1,8 +1,8 @@
 package main
 
 import (
-	proxy_consumer "github.com/panpito/youtube/design_pattern/proxy/consumer"
-	proxy_database "github.com/panpito/youtube/design_pattern/proxy/database"
+	proxy_consumer "github.com/AnonO6/design_pattern/proxy/consumer"
+	proxy_database "github.com/AnonO6/design_pattern/proxy/database"
 )
 
 func main() {
