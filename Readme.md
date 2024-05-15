@@ -2,6 +2,12 @@
 
 This project demonstrates 6 software design patterns in action, highlighting their use cases.
 
+## Abstract Factory pattern
+
+    The LNMIIT Gate Prep App is a Java application designed to assist students in preparing for the Graduate Aptitude Test in Engineering (GATE) examination. The application allows students to generate practice papers for different difficulty levels (easy or hard) across three major subjects: Computer Networks, Blockchain, and Mathematics.
+    In the software design it utilizes abstract factory to choose amongst the sections of paper and professor for that section based on difficulty.
+    P.S. Bhairvi sir's section is open book
+
 ## Proxy design pattern
 
     Developing a nginx server. A web server such as Nginx acts as a proxy for application servers:
