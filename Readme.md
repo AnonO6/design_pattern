@@ -9,7 +9,7 @@ At the backend these sections are served with questions using an abstract factor
 
 ## Proxy design pattern
 
-Developing a nginx server. A web server such as Nginx acts as a proxy for application servers:
+Developing a nginx server using golang and proxy design pattern. A web server such as Nginx acts as a proxy for application servers:
 
 1. It provides controlled access to your application server.
 2. It can do rate limiting.
