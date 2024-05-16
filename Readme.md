@@ -52,10 +52,15 @@ The project is a Bus Booking System implemented in Java using the Observer desig
 
 This project implements a PUBG Player Skin decorator program. It enables players to augment their in-game avatar's appearance by adding diverse wearables such as watches, tattoos, and gun skins. The interactive driver class facilitates real-time customization of player skins, showcasing the pattern's capability to dynamically extend object functionality without altering their structure. Overall, the project showcases how the decorator pattern can be applied to enhance modularity and flexibility in gaming applications.
 
-![PHOTO-2024-05-16-12-47-29](https://github.com/AnonO6/design_pattern/assets/124311066/dc30d4d8-3739-413c-a571-b2c34e0fe30f)
+![PHOTO-2024-05-16-12-59-00](https://github.com/AnonO6/design_pattern/assets/124311066/268a50d1-b16e-4235-96dc-81ea6cb9b5d5)
+
+
+
 
 ## Singleton design pattern
 
 This project offers a centralized and efficient way to manage configuration settings in a Java application while enforcing the singleton pattern to ensure that there is only one instance of the settings manager.
 
-![PHOTO-2024-05-16-12-47-29](https://github.com/AnonO6/design_pattern/assets/124311066/dbe6690b-5e5e-48e0-b478-2b65eeacec5f)
+![PHOTO-2024-05-16-12-59-18](https://github.com/AnonO6/design_pattern/assets/124311066/78723a53-a1f6-47db-85e1-0ba9a4d06bc2)
+
+
