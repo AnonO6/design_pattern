@@ -36,6 +36,10 @@ The project is a Bus Booking System implemented in Java using the Observer desig
 
 2. Observer (User): Represents users who want to be notified about the seat status for various trips. They are registered with the bus as observers and receive updates whenever there is a change in the seat status.
 
+## Decorator design pattern
+
+This project implements a PUBG Player Skin decorator program. It enables players to augment their in-game avatar's appearance by adding diverse wearables such as watches, tattoos, and gun skins. The interactive driver class facilitates real-time customization of player skins, showcasing the pattern's capability to dynamically extend object functionality without altering their structure. Overall, the project showcases how the decorator pattern can be applied to enhance modularity and flexibility in gaming applications.
+
 ## Singleton design pattern
 
 This project offers a centralized and efficient way to manage configuration settings in a Java application while enforcing the singleton pattern to ensure that there is only one instance of the settings manager.
